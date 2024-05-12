@@ -14,6 +14,8 @@ body{
     color: white;
 }
 
+/*-------------------- header section --------------------*/
+
 #header{
     width: 100%;
     height: 100vh;
@@ -63,9 +65,6 @@ nav>ul>li>a:hover:after{
     width: 100%;
 }
 
-#section-body{
-    font-size: 30px;
-}
 
 #section-body>div>img{
     width: 518px;
@@ -93,9 +92,10 @@ nav>ul>li>a:hover:after{
 #role{
     position: absolute;
     top: 53%;
-    color: var(--brand-color);
+    color: transparent;
     font-size: 51px;
     left: 10%;
+    -webkit-text-stroke: 1px white;
 }
 
 #download{
@@ -103,12 +103,109 @@ nav>ul>li>a:hover:after{
     font-family: serif;
     text-decoration: none;
     background-color: var(--brand-color);
-    padding: 10px 37px;
+    padding: 12px 50px;
     position: absolute;
     top: 70%;
     left: 19%;
     border-radius: 39px;
     font-size: 22px;
 }
+
+/*----------- laptop small -----------*/
+
+@media (max-width: 1024px) {
+
+    .container{
+        margin: 20px 10%;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #logo{
+        width: 135px;
+    }
+
+    nav>ul>li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 9px;
+    }
+
+    nav>ul>li>a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        position: relative;
+    }
+
+
+    nav>ul>li>a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: var(--brand-color);
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    nav>ul>li>a:hover:after{
+        width: 100%;
+    }
+
+
+    #section-body>div>img{
+        width: 51%;
+        position: absolute;
+        left: 44%;
+        top: 14%;
+        opacity: 75%;
+    }
+    #hello{
+        position: absolute;
+        top: 29%;
+        font-size: 70px;
+        font-family: cursive;
+        -webkit-text-stroke: 2px var(--brand-color);
+        color: black;
+    }
+
+    #name{
+        position: absolute;
+        top: 43%;
+        font-family: serif;
+        font-size: 68px;
+    }
+
+    #role{
+        position: absolute;
+        top: 56%;
+        color: transparent;
+        font-size: 51px;
+        left: 10%;
+        -webkit-text-stroke: 1px white;
+    }
+
+    #download{
+        color: white;
+        font-family: serif;
+        text-decoration: none;
+        background-color: var(--brand-color);
+        padding: 12px 50px;
+        position: absolute;
+        top: 77%;
+        left: 19%;
+        border-radius: 39px;
+        font-size: 22px;
+    }
+    
+}
+
 
 
