@@ -111,6 +111,10 @@ nav>ul>li>a:hover:after{
     font-size: 22px;
 }
 
+nav .menu{
+    display: none;
+}
+
 /*----------- laptop Large -----------*/
 
 @media (max-width: 1440px) {
@@ -200,16 +204,6 @@ nav>ul>li>a:hover:after{
 
 @media (max-width: 1024px) {
 
-    .container{
-        margin: 20px 10%;
-    }
-
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
 
     #logo{
         width: 135px;
@@ -290,6 +284,130 @@ nav>ul>li>a:hover:after{
         font-size: 22px;
     }
     
+}
+
+/*----------- laptop small -----------*/
+
+@media (max-width: 768px) {
+
+    #logo{
+        width: 135px;
+    }
+
+    nav>ul>li{
+        display: inline-block;
+        list-style: none;
+        margin: 8px 9px;
+    }
+
+    nav>ul>li>a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+    }
+
+
+    nav>ul>li>a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: var(--brand-color);
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+
+    nav>ul>li>a:hover:after{
+        width: 100%;
+    }
+
+
+    #section-body>div>img{
+        width: 58%;
+        position: absolute;
+        left: 36%;
+        top: 11%;
+        opacity: 75%;
+    }
+    #hello{
+        position: absolute;
+        top: 38%;
+        font-size: 58px;
+        font-family: cursive;
+        -webkit-text-stroke: 2px var(--brand-color);
+        color: black;
+    }
+
+    #name{
+        position: absolute;
+        top: 52%;
+        font-family: serif;
+        font-size: 57px;
+    }
+
+    #role{
+        position: absolute;
+        top: 66%;
+        color: transparent;
+        font-size: 40px;
+        left: 12%;
+        -webkit-text-stroke: 1px white;
+    }
+
+    #download{
+        color: white;
+        font-family: serif;
+        text-decoration: none;
+        background-color: var(--brand-color);
+        padding: 12px 50px;
+        position: absolute;
+        top: 82%;
+        left: 24%;
+        border-radius: 39px;
+        font-size: 19px;
+    }
+
+    nav .menu{
+        display: block;
+        font-size: 200%;
+    }
+
+    nav>ul{
+        background-color: var(--brand-color);
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 30%;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+
+    }
+
+    nav>ul>li{
+        display: block;
+        margin: 30% ;
+
+    }
+
+    nav>ul>li>a:hover{
+        color: black;
+    }
+
+    nav>ul>i{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        cursor: pointer;
+    }
+
+
+
+
+
+
 }
 
 

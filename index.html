@@ -19,14 +19,16 @@
         <div>
             <nav>
                 <img id="logo" src="dilan-logo.png" alt="logo">
-                <ul>
+                <ul id="sideMenu">
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">SKILL</a></li>
                     <li><a href="">PROJECTS</a></li>
                     <li><a href="">ASSIGNMENTS</a></li>
                     <li><a href="">GALLERY</a></li>
                     <li><a href="">CONTACT</a></li>
+                    <i class=" menu fa-solid fa-xmark" id="close" style="color: #ffffff;"></i>
                 </ul>
+                <i class=" menu fa-solid fa-bars" id="open" style="color: #ffffff;"></i>
             </nav>
 
             <div id="section-body">
@@ -52,6 +54,23 @@
         </div>
 
 </header>
+
+
+<script src="jquery-3.7.1.min.js"></script>
+
+<script>
+
+
+    $('#open').on('click',() =>{
+        $('#sideMenu').css("right", "0");
+    });
+
+    $('#close').on('click',() =>{
+        $('#sideMenu').css("right", "-300px");
+    });
+
+
+</script>
 
 </body>
 </html>
