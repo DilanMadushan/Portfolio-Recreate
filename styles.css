@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --brand-color : #7B00FE;
+}
+
 body{
     background-color: black;
     color: white;
@@ -17,7 +21,7 @@ body{
 }
 
 .container{
-    margin: 10px 10%;
+    margin: 20px 10%;
 }
 
 nav{
@@ -48,7 +52,7 @@ nav>ul>li>a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #7B00FE ;
+    background: var(--brand-color);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -58,3 +62,9 @@ nav>ul>li>a::after{
 nav>ul>li>a:hover:after{
     width: 100%;
 }
+
+#section-body{
+    font-size: 30px;
+}
+
+
