@@ -117,7 +117,7 @@ nav .menu{
 
 /*----------- laptop Large -----------*/
 
-@media (max-width: 1440px) {
+@media (max-width: 1441px) and (min-width: 1024px) {
 
     #logo{
         width: 140px;
@@ -202,7 +202,7 @@ nav .menu{
 
 /*----------- laptop small -----------*/
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) and (min-width: 768px) {
 
 
     #logo{
@@ -288,7 +288,7 @@ nav .menu{
 
 /*----------- Tablet -----------*/
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 425px){
 
     #logo{
         width: 135px;
@@ -303,7 +303,7 @@ nav .menu{
     nav>ul>li>a{
         color: white;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 17px;
         position: relative;
     }
 
@@ -407,7 +407,7 @@ nav .menu{
 
 /*----- Mobile Large -------*/
 
-@media (max-width: 425px) {
+@media (max-width: 426px) and (min-width: 375px){
 
     #logo{
         width: 110px;
@@ -525,7 +525,7 @@ nav .menu{
 
 /*----- Mobile Medium -------*/
 
-@media (max-width: 375px) {
+@media (max-width: 376px) and (min-width: 325px){
 
     #logo{
         width: 110px;
@@ -643,7 +643,7 @@ nav .menu{
 
 /*----- Mobile Small -------*/
 
-@media (max-width: 375px) {
+@media (max-width: 321px){
 
     #logo{
         width: 110px;
@@ -760,3 +760,52 @@ nav .menu{
 }
 
 
+/*-------------------- header section --------------------*/
+
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.container>div>img{
+    width: 420px;
+    margin-top: 5%;
+}
+
+.Acontainer{
+    margin: 20px 10%;
+}
+
+
+#title{
+    position: absolute;
+    top: 6%;
+    left: 44%;
+    font-size: 70px;
+    font-family: serif;
+
+}
+
+#title>span{
+    color: transparent;
+    -webkit-text-stroke: 2px var(--brand-color);
+    font-family: serif;
+
+}
+
+#intro{
+    position: absolute;
+    top: 18%;
+    left: 674px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    opacity: 60%;
+}
+
+#para{
+
+}
