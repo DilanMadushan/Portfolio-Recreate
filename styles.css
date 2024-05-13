@@ -1256,3 +1256,82 @@ nav .menu{
 
 }
 
+/*----- Mobile Small -------*/
+
+@media (max-width: 321px){
+    .container>div>img{
+        display: none;
+    }
+
+    #title{
+        position: absolute;
+        top: 3%;
+        left: 23%;
+        font-size: 41px;
+        font-family: serif;
+
+    }
+
+    #title>span{
+        color: transparent;
+        -webkit-text-stroke: 2px var(--brand-color);
+        font-family: serif;
+
+    }
+
+    #intro{
+        position: absolute;
+        top: 12%;
+        left: 30px;
+        font-size: 15px;
+        font-family: cursive;
+        color: white;
+        opacity: 60%;
+    }
+
+    #para{
+        position: absolute;
+        width: 259px;
+        top: 20%;
+        right: 9%;
+        font-size: 94%;
+        font-family: serif;
+        line-height: 34px;
+    }
+
+    .descTitle{
+        color: var(--brand-color);
+        font-family: Serif;
+    }
+
+    #desc{
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        top: 69%;
+        left: 5%;
+    }
+
+    .descBody{
+        margin: 20px;
+        font-size: 13px;
+        font-family: serif;
+    }
+
+    #contact{
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        background-color: var(--brand-color);
+        padding: 10px 42px;
+        border-radius: 35px;
+        font-size: 9px;
+    }
+
+    #contactButton{
+        position: absolute;
+        top: 594px;
+        left: 47%;
+    }
+}
+
