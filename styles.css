@@ -1105,10 +1105,9 @@ nav .menu{
     #title{
         position: absolute;
         top: 4%;
-        left: 23%;
-        font-size: 46px;
+        left: 25%;
+        font-size: 48px;
         font-family: serif;
-
     }
 
     #title>span{
@@ -1121,8 +1120,8 @@ nav .menu{
     #intro{
         position: absolute;
         top: 14%;
-        left: 39px;
-        font-size: 17px;
+        left: 50px;
+        font-size: 19px;
         font-family: cursive;
         color: white;
         opacity: 60%;
@@ -1130,10 +1129,10 @@ nav .menu{
 
     #para{
         position: absolute;
-        width: 314px;
-        top: 24%;
-        right: 7%;
-        font-size: 93%;
+        width: 345px;
+        top: 25%;
+        right: 8%;
+        font-size: 102%;
         font-family: serif;
         line-height: 34px;
     }
@@ -1148,12 +1147,12 @@ nav .menu{
         width: fit-content;
         height: fit-content;
         top: 65%;
-        left: 5%;
+        left: 7%;
     }
 
     .descBody{
-        margin: 20px;
-        font-size: 13px;
+        margin: 19px;
+        font-size: 14px;
         font-family: serif;
     }
 
@@ -1164,13 +1163,13 @@ nav .menu{
         background-color: var(--brand-color);
         padding: 10px 42px;
         border-radius: 35px;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     #contactButton{
         position: absolute;
-        top: 87%;
-        left: 53%;
+        top: 88%;
+        left: 51%;
     }
 
 }
