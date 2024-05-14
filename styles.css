@@ -1450,3 +1450,15 @@ nav .menu{
         margin-top: 50px;
     }
 }
+
+/*----- Mobile Small -------*/
+
+@media (max-width: 321px){
+
+    .skillList{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+}
