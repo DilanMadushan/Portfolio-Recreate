@@ -1335,3 +1335,57 @@ nav .menu{
     }
 }
 
+/*-------------------- header section --------------------*/
+
+#skillSection{
+    padding: 30px 0;
+}
+
+.subTitle{
+    font-size: 45px;
+}
+
+.skillList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.skillList>div{
+    /*border: 2px solid var(--brand-color);*/
+    background-color: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+}
+
+.skillIcon{
+    /* color: #ffffff; */
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.skillSub{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+
+.moreBtn{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.skillList>div:hover{
+    background: var(--brand-color);
+    transform: translateY(-10px);
+}
+
