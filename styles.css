@@ -1400,3 +1400,16 @@ nav .menu{
         margin-top: 50px;
     }
 }
+
+/*----------- laptop small -----------*/
+
+@media (max-width: 1025px) and (min-width: 768px) {
+
+    .skillList{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+}
