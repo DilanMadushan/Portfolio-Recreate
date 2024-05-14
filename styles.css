@@ -1413,3 +1413,28 @@ nav .menu{
     }
 
 }
+
+/*--------------- Tablet -------------*/
+
+@media (max-width: 768px) and (min-width: 425px){
+
+    .skillList{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+
+}
+
+/*----- Mobile Large -------*/
+
+@media (max-width: 426px) and (min-width: 375px){
+
+    .skillList{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+    }
+}
