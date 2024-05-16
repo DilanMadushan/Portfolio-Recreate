@@ -1588,6 +1588,16 @@ nav .menu{
 
 }
 
+/*----- Mobile Small -------*/
+
+@media (max-width: 321px){
+
+    .projectList>div>img{
+        width: 200px;
+    }
+
+}
+
 
 
 
