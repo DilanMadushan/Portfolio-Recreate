@@ -1531,9 +1531,23 @@ nav .menu{
 
 @media (max-width: 1441px) and (min-width: 1024px) {
 
-    .projectList>div>img{
-        width: 270px;
+    /*.projectList>div>img{*/
+    /*    width: 270px;*/
+    /*}*/
+
+    .projectList{
+        display: flex;
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* grid-gap: 40px; */
+        margin-top: 50px;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 47px 37px;
+        align-items: center;
+        position: relative;
     }
+
 }
 
 /*----------- laptop small -----------*/
@@ -1545,33 +1559,14 @@ nav .menu{
 
 }
 
+
 /*--------------- Tablet -------------*/
 
 @media (max-width: 768px) and (min-width: 425px){
 
-
-
-}
-
-/*----- Mobile Large -------*/
-
-@media (max-width: 426px) and (min-width: 375px){
-
-
-}
-
-/*----- Mobile Medium -------*/
-
-@media (max-width: 376px) and (min-width: 325px){
-
-
-}
-
-/*----- Mobile Small -------*/
-
-@media (max-width: 321px){
-
-
+    .projectList>div>img{
+        width: 300px;
+    }
 }
 
 
