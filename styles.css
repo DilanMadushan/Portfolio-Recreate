@@ -1335,7 +1335,7 @@ nav .menu{
     }
 }
 
-/*-------------------- header section --------------------*/
+/*-------------------- Skill section --------------------*/
 
 #skillSection{
     padding: 30px 0;
@@ -1462,3 +1462,124 @@ nav .menu{
         margin-top: 50px;
     }
 }
+
+
+/*------------- Project Section ----------------*/
+
+/*.projectList{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(3, 1fr);*/
+/*    grid-gap: 40px;*/
+/*    margin-top: 50px;*/
+/*    text-align: center;*/
+/*    !*flex-wrap: wrap;*!*/
+/*}*/
+
+.projectList{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-gap: 40px; */
+    margin-top: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 47px 37px;
+    align-items: center;
+    position: relative;
+}
+
+.projectList>div{
+    /* width: 300px; */
+    /* aspect-ratio: 1/1; */
+    background-color: #262626;
+    padding: 40px 40px;
+    border-radius: 23px;
+
+}
+
+.projectList>div>img{
+    width: 300px;
+}
+
+.projectList>div>h2{
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.projectList>div>p{
+    margin-bottom: 28px;
+    font-size: 17px;
+}
+
+.projectList>div>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    border: 3px solid black;
+    padding: 6px 12px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.projectList>div:hover{
+    background-color: var(--brand-color);
+}
+
+
+
+
+
+
+/*.projectImage{*/
+/*    padding: 5px 5px;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.projectList>div{*/
+/*    !* border: 4px solid var(--brand-color); *!*/
+/*    background-color: #262626;*/
+/*    !* border: 2px solid var(--brand-color); *!*/
+/*    padding: 9px;*/
+/*    font-size: 13px;*/
+/*    font-weight: 300;*/
+/*    padding-bottom: 18px;*/
+/*    !*border-radius: 20px;*!*/
+
+/*}*/
+
+/*.projectList>div:hover{*/
+/*    background: var(--brand-color);*/
+/*    transform: translateY(-10px);*/
+/*}*/
+
+/*.gitBtn:hover{*/
+/*    background-color: black;*/
+/*}*/
+
+/*.proSub{*/
+/*    font-size: 30px;*/
+/*    font-weight: 500;*/
+/*    !* margin-bottom: 0px; *!*/
+/*    margin-top: 23px;*/
+/*    margin-left: 30%;*/
+/*    margin-bottom: 18px;*/
+
+/*}*/
+
+/*.projectList>div>a{*/
+/*    text-decoration: none;*/
+/*    font-size: 19px;*/
+/*    color: white;*/
+/*    background-color: black;*/
+/*    padding: 6px 14px;*/
+/*    border-radius: 10px;*/
+
+/*}*/
+
+
+
+
+
+
+
