@@ -1569,6 +1569,25 @@ nav .menu{
     }
 }
 
+/*----- Mobile Large -------*/
+
+@media (max-width: 426px) and (min-width: 375px){
+
+    .projectList>div>img{
+        width: 300px;
+    }
+}
+
+/*----- Mobile Medium -------*/
+
+@media (max-width: 376px) and (min-width: 325px){
+
+    .projectList>div>img{
+        width: 240px;
+    }
+
+}
+
 
 
 
