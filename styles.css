@@ -1531,22 +1531,11 @@ nav .menu{
 
 @media (max-width: 1441px) and (min-width: 1024px) {
 
-    /*.projectList>div>img{*/
-    /*    width: 270px;*/
-    /*}*/
-
-    .projectList{
-        display: flex;
-        /* grid-template-columns: repeat(3, 1fr); */
-        /* grid-gap: 40px; */
-        margin-top: 50px;
-        text-align: center;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 47px 37px;
-        align-items: center;
-        position: relative;
+    .projectList>div>img{
+        width: 270px;
     }
+
+
 
 }
 
@@ -1596,6 +1585,25 @@ nav .menu{
         width: 200px;
     }
 
+}
+
+/*---------------------- Assignment Section -------------------*/
+
+#projectsSection{
+    padding: 30px 0;
+}
+
+.assignmentSet{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-gap: 40px; */
+    margin-top: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 47px 37px;
+    align-items: center;
+    position: relative;
 }
 
 
