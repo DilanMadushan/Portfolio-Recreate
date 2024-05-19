@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    main{
+        width: 50vw;
+        height: 50vh;
+        border:2px solid red;
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+
+        overflow: hidden;
+
+    }
+
+    section{
+        display: flex;
+        width: 200vw;
+
+        animation-name: anim;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+    }
+
+
+    section>div:first-child{
+        width: 50vw;
+        height: 50vh;;
+        border:2px solid red;
+
+        background-image: url("../assets/images/animation_slide/slide1.jpeg");
+        background-size: cover;
+
+    }
+
+    section>div:nth-child(2){
+        width: 50vw;
+        height: 50vh;
+        border:2px solid red;
+
+        background-image: url("../assets/images/animation_slide/slide2.jpeg");
+        background-size: cover;
+
+    }
+
+    section>div:nth-child(3){
+        width: 50vw;
+        height: 50vh;
+        border:2px solid red;
+
+        background-image: url("../assets/images/animation_slide/slide3.jpeg");
+        background-size: cover;
+
+    }
+
+    section>div:last-child{
+        width: 50vw;
+        height: 50vh;
+        border:2px solid red;
+
+        background-image: url("../assets/images/animation_slide/slide4.jpeg");
+        background-size: cover;
+    }
+
+    @keyframes anim {
+        0% ,20%{
+            transform: translateX(0%);
+        }
+        25% ,45%{
+            transform: translateX(-25%);
+        }
+        50%,70%{
+            transform: translateX(-50%);
+        }
+        75%, 100%{
+            transform: translateX(-75%);
+        }
+    }
+
+
+
+</style>
+
+<body>
+
+<main>
+    <section>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </section>
+
+</main>
+
+
+</body>
+</html>

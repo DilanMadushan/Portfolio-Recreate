@@ -1658,9 +1658,16 @@ nav .menu{
 
 /*---------------------- Assignment Section -------------------*/
 
-#gallerySection{
+#contactSection{
     padding: 30px 0;
 }
+
+.contactSet{
+    display: grid;
+
+}
+
+
 
 
 
