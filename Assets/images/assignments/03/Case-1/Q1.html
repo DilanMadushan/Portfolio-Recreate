@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="../Assets/normalize.css">
+</head>
+
+<style>
+
+    #section1{
+
+        background-color: orangered;
+        position: absolute;
+    }
+
+    #section2{
+
+        background-color: green;
+        position: absolute;
+        right: 0;
+    }
+
+    #section3{
+
+        background-color: orange;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #section4{
+
+        background-color: deeppink;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    section{
+        width: 50%;
+        height: 50%;
+    }
+
+    /*#circle1{*/
+    /*    width: 300px;*/
+    /*    aspect-ratio: 1/1;*/
+
+    /*    background-color: white;*/
+    /*    border-radius: 200px;*/
+
+    /*    position: absolute;*/
+    /*    left: 0;*/
+    /*    top: 0;*/
+
+    /*}*/
+
+    #center{
+        width: 10%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    #center-circle{
+        width: 70%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+        border-radius: 100px;
+
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+
+    #circle1{
+        width: 25%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 200px;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+    #circle2{
+        width: 25%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 200px;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    #circle3{
+        width: 25%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 200px;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+    #circle4{
+        width: 25%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 200px;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+    }
+
+    #square1{
+        width: 40%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #square2{
+        width: 40%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #square3{
+        width: 40%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #square4{
+        width: 40%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #corner-circle1{
+        width: 30%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+        border-radius: 200px;
+        left: -15%;
+        right: 85%;
+        top: -30%;
+        bottom: 60%;
+        margin: auto;
+
+    }
+
+    #corner-circle2{
+        width: 30%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+        border-radius: 200px;
+        right: -15%;
+        left: 85%;
+        top: -30%;
+        bottom: 60%;
+        margin: auto;
+
+    }
+    #corner-circle3{
+        width: 30%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+        border-radius: 200px;
+        left: -15%;
+        right: 85%;
+        bottom: -30%;
+        top: 60%;
+        margin: auto;
+
+    }
+    #corner-circle4{
+        width: 30%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+        border-radius: 200px;
+        right: -15%;
+        left: 85%;
+        bottom: -30%;
+        top: 60%;
+        margin: auto;
+    }
+
+    #center-top-circle{
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+        border-radius: 200px;
+        top: -15%;
+        bottom: 85%;
+        right: 35%;
+        left: 35%;
+        margin: auto;
+    }
+
+    #center-bottom-circle{
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+        border-radius: 200px;
+        bottom: -15%;
+        top: 85%;
+        right: 35%;
+        left: 35%;
+        margin: auto;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+
+
+
+
+</style>
+
+<body>
+
+<!------------- 1th slide ------------->
+
+<section id="section1">
+
+    <div id="corner-circle1"></div>
+
+    <div id="circle1">
+
+        <div id="square1"></div>
+
+    </div>
+
+</section>
+
+
+<!------------- 2th slide ------------->
+
+<section id="section2">
+
+    <div id="corner-circle2"></div>
+
+    <div id="circle2">
+
+        <div id="square2"></div>
+
+    </div>
+
+</section>
+
+<!------------- 3th slide ------------->
+
+<section id="section3">
+
+    <div id="corner-circle3"></div>
+
+    <div id="circle3">
+
+        <div id="square3"></div>
+
+    </div>
+
+</section>
+
+<!------------- 4th slide ------------->
+
+<section id="section4">
+
+    <div id="corner-circle4"></div>
+
+    <div id="circle4">
+
+        <div id="square4"></div>
+
+    </div>
+
+</section>
+
+
+<!------------- center-circle ------------->
+
+<div id="center">
+    <div id="center-circle"></div>
+</div>
+
+<!------------- Middle Circle ------------->
+
+<div id="center-top-circle"></div>
+<div id="center-bottom-circle"></div>
+
+
+</body>
+</html>

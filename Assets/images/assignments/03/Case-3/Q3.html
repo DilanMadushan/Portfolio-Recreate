@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    section{
+        width: 100vw;
+        height: 100vh;
+
+        position: relative;
+
+    }
+
+    #circle1{
+        width: 15%;
+        aspect-ratio: 1/1;
+        background-color: purple;
+        border-radius: 100%;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    section>div>h1{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        font-size: 200%;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #circle2{
+        width: 15%;
+        aspect-ratio: 1/1;
+        background-color:steelblue ;
+        border-radius: 100%;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+    #circle3{
+        width: 15%;
+        aspect-ratio: 1/1;
+        background-color:orange ;
+        border-radius: 100%;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #section2{
+        bottom: -100%;
+    }
+
+    #section3{
+        bottom: -200%;
+    }
+
+    #border1{
+        width: 16%;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        border:15px solid gray;
+
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #border2{
+        width: 15%;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        border:15px solid red;
+
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+</style>
+
+<body>
+
+<section id="section1">
+    <div id="circle1">
+        <h1>Hello</h1>
+    </div>
+</section>
+
+<section id="section2">
+    <div id="circle2">
+        <h1>Welcome</h1>
+    </div>
+</section>
+
+<section id="section3">
+    <div id="circle3">
+        <h1>Institute of Software Engineering</h1>
+    </div>
+</section>
+
+<div id="border1"></div>
+<div id="border2"></div>
+
+</body>
+</html>
