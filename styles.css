@@ -1663,9 +1663,30 @@ nav .menu{
 }
 
 .contactSet{
-    display: grid;
-
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+        /*text-align: justify;*/
 }
+
+#con1{
+    width: fit-content;
+    height: fit-content;
+    padding: 40px 40px;
+    border: 2px solid var(--brand-color);
+}
+
+#con1>form>input{
+    width: 513px;
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: 2px solid gray;
+}
+
+
 
 
 
