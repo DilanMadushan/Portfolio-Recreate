@@ -89,13 +89,31 @@ nav>ul>li>a:hover:after{
     font-size: 68px;
 }
 
+
 #role{
+    /*position: absolute;*/
+    /*top: 53%;*/
+    /*color: transparent;*/
+    /*font-size: 51px;*/
+    /*left: 10%;*/
+    /*-webkit-text-stroke: 1px white;*/
+    /*border-right: 5px solid black;*/
+    /*animation: typing  steps(22) 2s infinite alternate;*/
+    /*!*width: 100%;*!*/
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    font-size: 270%;
+}
+
+#roleBg{
     position: absolute;
     top: 53%;
-    color: transparent;
-    font-size: 51px;
-    left: 10%;
-    -webkit-text-stroke: 1px white;
+    color: var(--brand-color);
+    left: 13%;
+    /*animation: typing  steps(22) 2s infinite alternate;*/
+    /*width: 100%;*/
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 #download{
@@ -113,6 +131,12 @@ nav>ul>li>a:hover:after{
 
 nav .menu{
     display: none;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
 }
 
 /*----------- laptop Large -----------*/
@@ -1359,6 +1383,7 @@ nav .menu{
     font-size: 13px;
     font-weight: 300;
     border-right: 10px;
+    transition: 0.5s;
 }
 
 .skillIcon{
@@ -1387,6 +1412,7 @@ nav .menu{
 .skillList>div:hover{
     background: var(--brand-color);
     transform: translateY(-10px);
+    /*transform: scale(1.10);*/
 }
 
 /*------------- laptop large -----------------*/
@@ -1466,15 +1492,6 @@ nav .menu{
 
 /*------------- Project Section ----------------*/
 
-/*.projectList{*/
-/*    display: grid;*/
-/*    grid-template-columns: repeat(3, 1fr);*/
-/*    grid-gap: 40px;*/
-/*    margin-top: 50px;*/
-/*    text-align: center;*/
-/*    !*flex-wrap: wrap;*!*/
-/*}*/
-
 .projectList{
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
@@ -1489,11 +1506,11 @@ nav .menu{
 }
 
 .projectList>div{
-    /* width: 300px; */
-    /* aspect-ratio: 1/1; */
     background-color: #262626;
-    padding: 40px 40px;
+    padding: 40px 38px;
     border-radius: 23px;
+    border: 2px solid var(--brand-color);
+    transition: 300ms;
 
 }
 
@@ -1523,7 +1540,8 @@ nav .menu{
 }
 
 .projectList>div:hover{
-    background-color: var(--brand-color);
+    /*background-color: var(--brand-color);*/
+    transform: scale(1.15);
 }
 
 
@@ -1607,8 +1625,9 @@ nav .menu{
 .assignmentSet>div{
     width: 276px;
     height: 370px;
-    /*background-color: #262626;*/
+    /* background-color: #262626; */
     border: 2px solid var(--brand-color);
+    transition: 300ms;
 }
 
 .assignmentSet>div>h1{
@@ -1642,6 +1661,14 @@ nav .menu{
     background: var(--brand-color);
     padding: 6px 10px;
     border-radius: 100%;
+}
+
+.assignmentSet>div:hover{
+    transform: scale(1.15);
+}
+
+.gitBtn:hover{
+    background-color: darkorchid;
 }
 
 /*.num{*/
@@ -2148,7 +2175,7 @@ nav .menu{
     }
 
     #con2>p{
-        font-size: 16px;
+        font-size: 15px;
     }
 
 }
