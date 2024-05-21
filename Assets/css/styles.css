@@ -91,30 +91,30 @@ nav>ul>li>a:hover:after{
 
 
 #role{
-    /*position: absolute;*/
-    /*top: 53%;*/
-    /*color: transparent;*/
-    /*font-size: 51px;*/
-    /*left: 10%;*/
-    /*-webkit-text-stroke: 1px white;*/
-    /*border-right: 5px solid black;*/
-    /*animation: typing  steps(22) 2s infinite alternate;*/
-    /*!*width: 100%;*!*/
-    /*white-space: nowrap;*/
-    /*overflow: hidden;*/
-    font-size: 270%;
-}
-
-#roleBg{
     position: absolute;
     top: 53%;
-    color: var(--brand-color);
-    left: 13%;
+    color: transparent;
+    font-size: 51px;
+    left: 10%;
+    -webkit-text-stroke: 1px white;
+    border-right: 5px solid black;
     /*animation: typing  steps(22) 2s infinite alternate;*/
     /*width: 100%;*/
     white-space: nowrap;
     overflow: hidden;
+    /*font-size: 270%;*/
 }
+
+/*#roleBg{*/
+/*    position: absolute;*/
+/*    top: 53%;*/
+/*    color: var(--brand-color);*/
+/*    left: 13%;*/
+/*    !*animation: typing  steps(22) 2s infinite alternate;*!*/
+/*    !*width: 100%;*!*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*}*/
 
 #download{
     color: white;
@@ -129,15 +129,14 @@ nav>ul>li>a:hover:after{
     font-size: 22px;
 }
 
+#download:hover{
+    background-color: darkorchid;
+}
+
 nav .menu{
     display: none;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
 
 /*----------- laptop Large -----------*/
 
@@ -863,6 +862,11 @@ nav .menu{
     border-radius: 35px;
 }
 
+#contact:hover{
+    transform: scale(1.5%);
+    background-color: darkorchid;
+}
+
 #contactButton{
     position: absolute;
     top: 86%;
@@ -1533,9 +1537,8 @@ nav .menu{
     text-decoration: none;
     font-size: 16px;
     color: white;
-    border: 3px solid black;
     padding: 6px 12px;
-    background-color: black;
+    background-color: var(--brand-color);
     border-radius: 10px;
 }
 
@@ -1543,6 +1546,11 @@ nav .menu{
     /*background-color: var(--brand-color);*/
     transform: scale(1.15);
 }
+
+.projectList>div>a:hover{
+    background-color: darkorchid;
+}
+
 
 
 /*----------- laptop Large -----------*/
@@ -1671,6 +1679,10 @@ nav .menu{
     background-color: darkorchid;
 }
 
+.eye:hover{
+    background-color: darkorchid;
+}
+
 /*.num{*/
 /*    width: 80px;*/
 /*    height: 80px;*/
@@ -1683,7 +1695,7 @@ nav .menu{
 /*}*/
 
 
-/*---------------------- Assignment Section -------------------*/
+/*---------------------- Contact Section -------------------*/
 
 #contactSection{
     padding: 30px 0;
@@ -1752,6 +1764,9 @@ nav .menu{
     font-size: 20px;
 }
 
+#subBtn:hover{
+    background-color: darkorchid;
+}
 
 
 /*----------- laptop Large -----------*/
@@ -2177,6 +2192,7 @@ nav .menu{
     #con2>p{
         font-size: 15px;
     }
+
 
 }
 
