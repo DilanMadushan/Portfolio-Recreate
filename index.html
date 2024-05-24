@@ -9,7 +9,9 @@
 
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -17,20 +19,440 @@
     <div class="container">
         <div>
             <nav>
-                <img id="logo" src="dilan-logo.png" alt="logo">
-                <ul>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SKILL</a></li>
-                    <li><a href="">PROJECTS</a></li>
-                    <li><a href="">ASSIGNMENTS</a></li>
-                    <li><a href="">GALLERY</a></li>
-                    <li><a href="">CONTACT</a></li>
+                <img id="logo" src="Assets/images/dilan-logo.png" alt="logo">
+                <ul id="sideMenu">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skillSection">SKILLS</a></li>
+                    <li><a href="#projectsSection">PROJECTS</a></li>
+                    <li><a href="#assignmentSection">ASSIGNMENTS</a></li>
+                    <!--                    <li><a href="">GALLERY</a></li>-->
+                    <li><a href="#contactSection">CONTACT</a></li>
+                    <i class=" menu fa-solid fa-xmark" id="close" style="color: #ffffff;"></i>
                 </ul>
-
+                <i class=" menu fa-solid fa-bars" id="open" style="color: #ffffff;"></i>
             </nav>
+
+            <div id="section-body">
+
+                <div>
+                    <img src="Assets/images/bg2.png" alt="avatar">
+                </div>
+
+                <div>
+
+                    <span id="hello">Hello,</span>
+                    <h1 id="name">I'm Dilan Fernando</h1>
+
+                    <h1 id="role"></h1>
+
+                    <a href="My-CV%20(1).pdf" download="" id="download">Download CV
+                        <i class="fa-solid fa-arrow-down-long" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+
+            </div>
+
         </div>
     </div>
+
 </header>
+
+
+<section id="about">
+    <div class="container">
+
+        <div>
+            <img src="Assets/images/reabout.png" alt="img">
+        </div>
+
+        <div>
+            <h1 id="title" data-aos="fade-down" data-aos-duration="1000">I'm <span>Dilan</span></h1>
+
+            <p id="intro" data-aos="fade-up" data-aos-duration="1000">I'm Creative Designer and Developer</p>
+
+            <p id="para" data-aos="flip-up" data-aos-duration="1000">
+                As a dedicated and self-driven software engineering student pursuing a Graduate Diploma program at the Institute of Software Engineering, I am committed to making a positive impact on the world through innovation. With a passion for creating solutions that enhance lives, I immerse myself in learning and applying cutting-edge technologies.
+            </p>
+
+            <div id="desc" data-aos="flip-up" data-aos-duration="1000">
+                <h2 class="descBody"> <span class="descTitle">Full Name : </span>Dilan Madushanka Fernando</h2>
+                <h2 class="descBody"> <span class="descTitle">Email : </span>dilanmadushanka6013@gmail.com</h2>
+                <h2 class="descBody"> <span class="descTitle">Mobile : </span>0750326612</h2>
+
+            </div>
+
+            <div id="contactButton">
+                <a href="" id="contact">Contact Me</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="skillSection">
+    <div class="container">
+        <h1 class="subTitle">My Skills</h1>
+        <div class="skillList">
+            <div>
+                <i class="fa-solid fa-code skillIcon" style="color: #ffffff;"></i>
+                <h2 class="skillSub">Web Design</h2>
+                <p class="skillPara">Web design involves creating visually appealing and user-friendly
+                    websites to showcase information or products effectively</p>
+                <a href="" class="moreBtn">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple skillIcon"></i>
+                <h2 class="skillSub">UI/UX Design</h2>
+                <p class="skillPara">UI/UX design focuses on creating intuitive interfaces for seamless user
+                    experiences, ensuring websites and apps are both functional and enjoyable.</p>
+                <a href="" class="moreBtn">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles skillIcon" style="color: #ffffff;"></i>
+                <h2 class="skillSub">Graphic Design</h2>
+                <p class="skillPara">Graphic design involves creating visual concepts using computer software
+                    or by hand to communicate ideas that inspire, inform, or captivate audiences</p>
+                <a href="" class="moreBtn">Learn More</a>
+            </div>
+
+            <div>
+
+                <i class="fa-brands fa-app-store-ios skillIcon"></i>
+                <h2 class="skillSub">App Development</h2>
+                <p class="skillPara">App development involves creating software applications for mobile devices
+                    or computers, often using programming languages like Java, Swift, or Python.</p>
+                <a href="" class="moreBtn">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-github skillIcon"></i>
+                <h2 class="skillSub">Version Control</h2>
+                <p class="skillPara">
+                    Version control allows tracking changes to files over time, facilitating collaboration
+                    among developers and maintaining code integrity in software projects.</p>
+                <a href="" class="moreBtn">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-gamepad skillIcon"></i>
+                <h2 class="skillSub">Game Development</h2>
+                <p class="skillPara">Game development is the process of creating interactive experiences,
+                    from concept to launch, for entertainment or educational purposes using coding and design.</p>
+                <a href="" class="moreBtn">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<section id="projectsSection">
+    <div class="container">
+        <h1 class="subTitle">Projects</h1>
+        <div class="projectList">
+            <div>
+                <img class="projectImage" src="Assets/images/img.png" alt="img">
+                <h2 class="proSub">MrGreen</h2>
+                <p>First Semester Final project</p>
+                <a href="">Git Hub <i class="fa-brands fa-github"></i></a>
+
+            </div>
+
+            <div>
+                <img class="projectImage" src="Assets/images/library.PNG" alt="img">
+                <h2 class="proSub">BookWarm</h2>
+                <p>Hibernate Library management system.</p>
+                <a href="">Git Hub <i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div>
+                <img class="projectImage" src="Assets/images/chatApplication.PNG" alt="img">
+                <h2 class="proSub">SkyNet</h2>
+                <p>Java Socket Chat Application</p>
+                <a href="">GitHub <i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <div>
+                <img class="projectImage" src="Assets/images/img.png" alt="img">
+                <h2 class="proSub">Layered architecture</h2>
+                <p>Layered architecture Project</p>
+                <a href="">Git Hub <i class="fa-brands fa-github"></i></a>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section id="assignmentSection">
+    <div class="container">
+        <h1 class="subTitle">Assigment</h1>
+        <div class="assignmentSet">
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/01/doc.PNG" alt="img">
+                <h1>Assignment 01</h1>
+                <p>Requirement Document</p>
+                <a href="" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/02/1_HmoJ1MfX-tOrP0q0neLydg.jpg" alt="img">
+                <h1>Assignment 02</h1>
+                <p>HTML Structure</p>
+                <a href="" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/03/Case-1/1-case-1.PNG" alt="img">
+                <h1>Assignment 03</h1>
+                <p>Case 01</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-03" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/03/Case-1/Q1.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/03/Case-2/img.png" alt="">
+                <h1>Assignment 03</h1>
+                <p>Case 02</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-03" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/03/Case-2/Q2.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/03/Case-3/img.png" alt="img">
+                <h1>Assignment 03</h1>
+                <p>Case 03</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-03" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/03/Case-3/Q3.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/03/Case-4/img.png" alt="img">
+                <h1>Assignment 03</h1>
+                <p>Case 04</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-03" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/03/Case-4/Q4.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/03/Case-5/img.png" alt="img">
+                <h1>Assignment 03</h1>
+                <p>Case 05</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-03" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/03/Case-5/Q5.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/03/Case-6/img.png" alt="img">
+                <h1>Assignment 03</h1>
+                <p>Case 06</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-03" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/03/Case-6/Q6.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/04/Case-01/img.png" alt="img">
+                <h1>Assignment 04</h1>
+                <p>Case 01</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-04" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/04/Case-01/Q1.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/04/Case-02/img.png" alt="img">
+                <h1>Assignment 04</h1>
+                <p>Case 02</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-04" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/04/Case-02/Q2.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/04/Case-03/img.png" alt="">
+                <h1>Assignment 04</h1>
+                <p>Case 03</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-04" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/04/Case-03/Q3.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/04/Case-04/img.png" alt="">
+                <h1>Assignment 04</h1>
+                <p>Case 04</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-04" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/04/Case-04/Q4.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/04/Case-05/img.png" alt="">
+                <h1>Assignment 04</h1>
+                <p>Case 05</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-04" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/04/Case-05/Q5.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/04/Case-06/img.png" alt="">
+                <h1>Assignment 04</h1>
+                <p>Case 06</p>
+                <a href="https://github.com/DilanMadushan/CSS-Assigment-04" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/04/Case-06/Q6.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/05/img.png" alt="">
+                <h1>Assignment 05</h1>
+                <p>responsive the Portfolio</p>
+                <a href="https://github.com/DilanMadushan/Portfolio-Recreate/tree/Style" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="https://dilanmadushan.github.io/Portfolio-Recreate/" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/06/img.png" alt="">
+                <h1>Assignment 06</h1>
+                <p>Create POS System</p>
+                <a href="https://github.com/DilanMadushan/POS-ReCreate/tree/JS" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/DilanMadushan/POS-ReCreate/tree/JS" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/06/img.png" alt="">
+                <h1>Assignment 07</h1>
+                <p>Create POS System as SPA</p>
+                <a href="https://github.com/DilanMadushan/POS-ReCreate/tree/JS" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/07/index.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/08/case-01/img.png" alt="">
+                <h1>Assignment 08</h1>
+                <p>Case 01</p>
+                <a href="https://github.com/DilanMadushan/Assignment-08" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/08/case-01/task-1.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/08/Case-02/img.png" alt="">
+                <h1>Assignment 08</h1>
+                <p>Case 02</p>
+                <a href="https://github.com/DilanMadushan/Assignment-08" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/08/Case-02/Task 2.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/09/img.png" alt="">
+                <h1>Assignment 09</h1>
+                <p>Knight Rider</p>
+                <a href="https://github.com/DilanMadushan/POS-ReCreate/tree/JS" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/09/index.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000">
+                <img src="Assets/images/assignments/10/img.png" alt="">
+                <h1>Assignment 10</h1>
+                <p>Calculator</p>
+                <a href="https://github.com/DilanMadushan/POS-ReCreate/tree/JS" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/10/index.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+            <div data-aos="flip-right" data-aos-duration="1000" >
+                <img src="Assets/images/assignments/06/img.png" alt="">
+                <h1>Assignment 11</h1>
+                <p>Add Functions to POS</p>
+                <a href="https://github.com/DilanMadushan/POS-ReCreate/tree/JS" class="gitBtn">GitHub <i class="fa-brands fa-github"></i></a>
+                <a href="Assets/images/assignments/07/index.html" class="eye"><i class="fa-solid fa-eye"></i></a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</section>
+
+
+<section id="contactSection">
+    <div class="container">
+        <h1 class="subTitle">Contact</h1>
+        <div class="contactSet">
+
+            <div id="con1">
+                <form>
+                    <h3>Name :</h3>
+                    <input class="input" type="text" placeholder="Name"> <br>
+
+                    <h3>Email :</h3>
+                    <input class="input" type="email" placeholder="Email"> <br>
+
+                    <h3>Message :</h3>
+                    <!--                <input id="msg" type="text" placeholder="Tel"> <br>-->
+                    <textarea name="Message" id="msg" cols="30" rows="10"></textarea>
+
+                    <input id="subBtn" type="submit" placeholder="Submit"> <br>
+                </form>
+            </div>
+
+            <div id="con2">
+                <h3><i class="fa-solid fa-location-crosshairs"></i> Address</h3>
+                <p>48/30 East Moratumulla Moratuwa</p>
+
+                <h3><i class="fa-solid fa-phone"></i> Phone</h3>
+                <p>0750326612 / 0760326612</p>
+
+                <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+                <p>dilanmadushanka6013@gmail.com</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<div></div>
+
+
+
+
+<script src="Assets/lib/jquery-3.7.1.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<script>
+
+
+    $('#open').on('click',() =>{
+        $('#sideMenu').css("right", "0");
+    });
+
+    $('#close').on('click',() =>{
+        $('#sideMenu').css("right", "-300px");
+    });
+
+    AOS.init();
+
+    var typed = new Typed('#role', {
+        strings: ['- Full-Stack Developer -', '- Indie Game Developer -'],
+        typeSpeed: 40,
+        backSpeed: 40,
+        loop: true
+    });
+
+</script>
 
 </body>
 </html>
